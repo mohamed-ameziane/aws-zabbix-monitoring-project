@@ -2,7 +2,7 @@
 
 Ce projet documente la mise en place d'une infrastructure de monitoring complète utilisant **Zabbix 6.0 LTS**, déployée sur le cloud **AWS** via **Docker**.
 
-## 📋 Description
+## Description
 L'objectif est de superviser en temps réel un parc de serveurs hétérogène (Linux Ubuntu & Windows Server) au sein d'un VPC sécurisé.
 
 **Architecture :**
@@ -10,12 +10,12 @@ L'objectif est de superviser en temps réel un parc de serveurs hétérogène (L
 * **Clients :** Instances EC2 (Linux & Windows).
 * **Réseau :** VPC AWS, Security Groups configurés pour les ports 10050/10051.
 
-## 🛠️ Prérequis
+## Prérequis
 * Un compte AWS actif.
 * Docker & Docker Compose v2 installés sur le serveur.
 * Accès SSH et RDP aux instances.
 
-## 🚀 Installation du Serveur (Docker)
+## Installation du Serveur (Docker)
 
 1.  Cloner ce dépôt sur votre instance serveur :
     ```bash
@@ -30,7 +30,7 @@ L'objectif est de superviser en temps réel un parc de serveurs hétérogène (L
 
 3.  Accéder à l'interface Web : `http://IP_PUBLIQUE_SERVER`
 
-## ⚙️ Configuration des Agents
+## Configuration des Agents
 
 ### Agent Linux
 1.  Installer l'agent :
@@ -51,7 +51,7 @@ L'objectif est de superviser en temps réel un parc de serveurs hétérogène (L
 2.  Lors de l'installation, renseigner l'IP Privée du serveur Zabbix.
 3.  Ouvrir le port **10050** dans le pare-feu Windows.
 
-## 📸 Aperçu
+## Aperçu
 
 ### Architecture Réseau
 ![Architecture](docs/images/SG.png)
@@ -59,5 +59,5 @@ L'objectif est de superviser en temps réel un parc de serveurs hétérogène (L
 ### Tableau de Bord Zabbix
 ![Dashboard](docs/images/capture_zabbix_dashboard.png)
 
-## 👤 Auteur
+## Auteur
 **Mohamed Ameziane** - Étudiant en Big Data & Cloud Computing (ENSET Mohammedia).
