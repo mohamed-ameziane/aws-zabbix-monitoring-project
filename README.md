@@ -19,7 +19,7 @@ L'objectif est de superviser en temps réel un parc de serveurs hétérogène (L
 
 1.  Cloner ce dépôt sur votre instance serveur :
     ```bash
-    git clone [https://github.com/VOTRE_USER/zabbix-aws-project.git](https://github.com/VOTRE_USER/zabbix-aws-project.git)
+    git clone [https://github.com/mohamed-ameziane/zabbix-aws-project.git](https://github.com/mohamed-ameziane/zabbix-aws-project.git)
     cd zabbix-aws-project/docker
     ```
 
