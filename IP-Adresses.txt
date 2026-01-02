@@ -1,0 +1,11 @@
+Ameziane-Zabbix-Server
+- Private IP : 10.0.1.252
+- Public IP  : 18.205.20.69
+
+Ameziane-Client-Windows
+- Private IP : 10.0.1.172
+- Public IP  : 3.88.90.85
+
+Ameziane-Client-Linux
+- Private IP : 10.0.1.151
+- Public IP  : 52.207.241.233

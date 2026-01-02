@@ -1,0 +1,15 @@
+# Sécurité (NE JAMAIS UPLOADER)
+*.pem
+*.key
+.env
+
+# Système
+.DS_Store
+Thumbs.db
+
+# LaTeX temporaires
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
